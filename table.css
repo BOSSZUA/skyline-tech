@@ -1,0 +1,32 @@
+*{
+    padding: 10px;
+    margin: 20px;
+}
+table{
+    max-width: 80%;
+}
+
+table,td,th{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+caption{
+    font-size: 22px;
+}
+thead{
+    color: white;
+    background-color: blue;
+}
+tbody:nth-child(even){
+    background-color: rgb(105, 98, 98);
+    color: white;
+}
+tbodynth-child(odd):hover{
+    background-color: lightgrey;
+}
+.fa-xmark{
+    color: rgb(90, 27, 27);
+}
+.fa-check{
+    color: rgb(19, 77, 19);
+}
